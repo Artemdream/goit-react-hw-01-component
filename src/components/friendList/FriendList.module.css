@@ -1,0 +1,45 @@
+.list {
+  display: table;
+  padding: 40px;
+  margin: 40px auto;
+  background-color: var(--primary-bg-color);
+  box-shadow: var(--primary-box-shadow);
+}
+
+.item {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 25px;
+  gap: 10px;
+  background-color: var(--secondary-bg-color);
+  box-shadow: var(--img-box-shadow);
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.true {
+  background-color: rgb(122, 251, 122);
+}
+
+.false {
+  background-color: rgb(250, 87, 87);
+}
+
+.avatar {
+  border-radius: 5px;
+  background-color: inherit;
+}
+
+.name {
+  font-weight: 700;
+}
