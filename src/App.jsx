@@ -17,9 +17,7 @@ export function App() {
         username={username}
         tag={tag}
         location={location}
-        followers={stats.followers}
-        views={stats.views}
-        likes={stats.likes}
+        stats={stats}
       />
       <FriendList friends={friends} />
       <Statistics title="Upload stats" stats={data} />

@@ -26,11 +26,11 @@
 
 .item {
   display: grid;
-  padding: 10px 0;
   width: 100%;
   color: var(--white-color);
-  line-height: 25px;
+  line-height: 35px;
   background-color: var(--gray-bg-color);
+  /* background-color: var(--random-color); */
 }
 
 .label {

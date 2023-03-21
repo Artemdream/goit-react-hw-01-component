@@ -6,9 +6,7 @@ export const Profile = ({
   tag,
   location,
   avatar,
-  followers,
-  views,
-  likes,
+  stats: { followers, views, likes },
 }) => {
   return (
     <div className={css.display}>
@@ -38,6 +36,7 @@ export const Profile = ({
 };
 
 Profile.propTypes = {
+  avatar: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
